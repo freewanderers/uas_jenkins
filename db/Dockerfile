@@ -12,3 +12,5 @@ ENV MYSQL_PASSWORD ItH1nlcIt5Tru3!
 
 # menyalin file trucorp-db.sql ke docker-entrypoint-initdb.d/
 COPY ./trucorp-db.sql ./docker-entrypoint-initdb.d/
+
+EXPOSE 3306
