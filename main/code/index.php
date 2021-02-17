@@ -1,6 +1,6 @@
 <?php
 // connect ke ip 172.24.0.2 (didapat dari docker network) dengan username user_trucorp password ItH1nlcIt5Tru3! di database trucorp_db
-$conn = mysqli_connect('172.26.0.2', 'user_trucorp', 'ItH1nlcIt5Tru3!', 'trucorp_db');
+$conn = mysqli_connect('172.23.0.3', 'user_trucorp', 'ItH1nlcIt5Tru3!', 'trucorp_db');
 
 // validasi $conn berjalan atau tidak
 if($conn == false){
